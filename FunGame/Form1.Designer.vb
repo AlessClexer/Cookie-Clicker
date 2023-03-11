@@ -68,6 +68,7 @@ Partial Class Form1
         'Price_Text_1
         '
         Me.Price_Text_1.AutoSize = True
+        Me.Price_Text_1.BackColor = System.Drawing.Color.Goldenrod
         Me.Price_Text_1.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Price_Text_1.Location = New System.Drawing.Point(47, 38)
         Me.Price_Text_1.Name = "Price_Text_1"
@@ -98,6 +99,7 @@ Partial Class Form1
         'Price_Text_2
         '
         Me.Price_Text_2.AutoSize = True
+        Me.Price_Text_2.BackColor = System.Drawing.Color.Goldenrod
         Me.Price_Text_2.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Price_Text_2.Location = New System.Drawing.Point(696, 39)
         Me.Price_Text_2.Name = "Price_Text_2"
@@ -138,9 +140,9 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-2, 223)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 282)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(244, 230)
+        Me.PictureBox1.Size = New System.Drawing.Size(243, 230)
         Me.PictureBox1.TabIndex = 12
         Me.PictureBox1.TabStop = False
         '
@@ -190,8 +192,8 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.ClientSize = New System.Drawing.Size(880, 450)
+        Me.BackColor = System.Drawing.Color.Goldenrod
+        Me.ClientSize = New System.Drawing.Size(911, 506)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Cookie_Stores)
         Me.Controls.Add(Me.Cookie_Multiplier)

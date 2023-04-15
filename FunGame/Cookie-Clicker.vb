@@ -31,14 +31,6 @@ Public Class CookieClicker
     Private Sub click_cookie()
         totalCookies = totalCookies + ClickValue
         Cookie_Value.Text = "Cookie: " + totalCookies.ToString
-
-        If totalCookies = 1000 Then
-            Achievement.Text = "Congraluations! You have reached 1000 Cookies."
-        End If
-
-        If totalCookies > 1000 Then
-            Achievement.Text = " "
-        End If
     End Sub
 
     Private Sub RoundButton1_Click(sender As Object, e As EventArgs) Handles RoundButton1.Click
@@ -52,8 +44,8 @@ Public Class CookieClicker
     End Sub
 
     Private Sub Button_Command_4_Click(sender As Object, e As EventArgs) Handles Button_Command_4.Click
-        If totalCookies >= 10 Then
-            totalCookies -= 10
+        If totalCookies >= 10000 Then
+            totalCookies -= 10000
 
             GrandmaCookies += 1
 
@@ -62,10 +54,6 @@ Public Class CookieClicker
 
         If GrandmaCookies = 1 Then
             Achievement.Text = "Congraluations! You have 1 Grandma Cookie."
-        End If
-
-        If totalCookies > 2 Then
-            Achievement.Text = " "
         End If
 
     End Sub
@@ -77,7 +65,6 @@ Public Class CookieClicker
             WorkerValue += 1
 
             cookie_workers.Text = "Cookie Workers: " + WorkerValue.ToString
-
         End If
     End Sub
 
@@ -102,10 +89,10 @@ Public Class CookieClicker
         Dim upgradeCost As Integer
         upgradeCost = PassiveOneLevel * PassiveOneLevel * 100
 
-        If totalCookies >= upgradeCost And WorkerValue >= 10 Then
+        If totalCookies >= upgradeCost And WorkerValue >= 5 Then
             Remind_1.Text = " "
             totalCookies = totalCookies - upgradeCost
-            WorkerValue = WorkerValue - 10
+            WorkerValue = WorkerValue - 5
 
             PassiveOneLevel = PassiveOneLevel + 1
             PassiveOneVal = PassiveOneVal + 1
@@ -121,9 +108,6 @@ Public Class CookieClicker
 
         If CookieStores = 5 Then
             Achievement.Text = "Congratulations! You have reached " + CookieStores.ToString + " Cookie Stores!"
-        End If
-        If CookieStores > 5 Then
-            Achievement.Text = " "
         End If
 
     End Sub

@@ -7,7 +7,7 @@ Imports System.Threading
 Public Class Form1
     Public totalCookies, ClickValue, ClickLevel, CookieStores, CookieWorkers As Integer
     Public PassiveOneVal, PassiveOneLevel As Integer
-    Public WorkerValue As Integer
+    Public WorkerValue, GrandmaCookies As Integer
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         totalCookies = 0
         ClickValue = 0
@@ -15,6 +15,7 @@ Public Class Form1
         PassiveOneVal = 0
         PassiveOneLevel = 1
         WorkerValue = 0
+        GrandmaCookies = 0
 
         CookieStores = 0
         CookieWorkers = 0
@@ -30,10 +31,37 @@ Public Class Form1
     Private Sub click_cookie()
         totalCookies = totalCookies + ClickValue
         Cookie_Value.Text = "Cookie: " + totalCookies.ToString
+
+        If totalCookies = 1000 Then
+            Achievement.Text = "Congraluations! You have reached 1000 Cookies."
+        End If
+
+        If totalCookies > 1000 Then
+            Achievement.Text = " "
+        End If
     End Sub
 
     Private Sub RoundButton1_Click(sender As Object, e As EventArgs) Handles RoundButton1.Click
         click_cookie()
+    End Sub
+
+    Private Sub Button_Command_4_Click(sender As Object, e As EventArgs) Handles Button_Command_4.Click
+        If totalCookies >= 10000 Then
+            totalCookies -= 10000
+
+            GrandmaCookies += 1
+
+            Grandmas_Cookies.Text = "Grandma's Cookies: " + GrandmaCookies.ToString
+        End If
+
+        If GrandmaCookies = 1 Then
+            Achievement.Text = "Congraluations! You have 1 Grandma Cookie."
+        End If
+
+        If totalCookies > 2 Then
+            Achievement.Text = " "
+        End If
+
     End Sub
 
     Public Sub Button_Command_3_Click(sender As Object, e As EventArgs) Handles Button_Command_3.Click
@@ -99,7 +127,7 @@ Public Class Form1
     End Sub
 
     Private Sub set_Timer(interval As Integer)
-        PassiveCookieTimer.Interval = interval
+        'PassiveCookieTimer.Interval = interval
     End Sub
 
 End Class

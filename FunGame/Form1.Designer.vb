@@ -41,15 +41,19 @@ Partial Class Form1
         Me.Price_Text_3 = New System.Windows.Forms.Label()
         Me.Button_Command_3 = New System.Windows.Forms.Button()
         Me.Remind_1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Price_Text_4 = New System.Windows.Forms.Label()
+        Me.Button_Command_4 = New System.Windows.Forms.Button()
+        Me.Grandmas_Cookies = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Cookie_Value
         '
         Me.Cookie_Value.AutoSize = True
-        Me.Cookie_Value.Font = New System.Drawing.Font("Comic Sans MS", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Cookie_Value.Font = New System.Drawing.Font("Comic Sans MS", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Cookie_Value.Location = New System.Drawing.Point(302, 8)
         Me.Cookie_Value.Name = "Cookie_Value"
-        Me.Cookie_Value.Size = New System.Drawing.Size(241, 71)
+        Me.Cookie_Value.Size = New System.Drawing.Size(257, 69)
         Me.Cookie_Value.TabIndex = 0
         Me.Cookie_Value.Text = "Cookie: 0"
         '
@@ -60,18 +64,18 @@ Partial Class Form1
         '
         Me.Price_Text_1.AutoSize = True
         Me.Price_Text_1.BackColor = System.Drawing.Color.Goldenrod
-        Me.Price_Text_1.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Price_Text_1.Location = New System.Drawing.Point(45, 25)
+        Me.Price_Text_1.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Price_Text_1.Location = New System.Drawing.Point(66, 22)
         Me.Price_Text_1.Name = "Price_Text_1"
-        Me.Price_Text_1.Size = New System.Drawing.Size(154, 56)
+        Me.Price_Text_1.Size = New System.Drawing.Size(159, 55)
         Me.Price_Text_1.TabIndex = 2
         Me.Price_Text_1.Text = "Price 2"
         '
         'Level_Text_1
         '
         Me.Level_Text_1.AutoSize = True
-        Me.Level_Text_1.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Level_Text_1.Location = New System.Drawing.Point(77, 149)
+        Me.Level_Text_1.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.Level_Text_1.Location = New System.Drawing.Point(109, 147)
         Me.Level_Text_1.Name = "Level_Text_1"
         Me.Level_Text_1.Size = New System.Drawing.Size(87, 45)
         Me.Level_Text_1.TabIndex = 3
@@ -79,7 +83,7 @@ Partial Class Form1
         '
         'Button_Command_1
         '
-        Me.Button_Command_1.Location = New System.Drawing.Point(12, 80)
+        Me.Button_Command_1.Location = New System.Drawing.Point(42, 78)
         Me.Button_Command_1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button_Command_1.Name = "Button_Command_1"
         Me.Button_Command_1.Size = New System.Drawing.Size(213, 65)
@@ -91,10 +95,10 @@ Partial Class Form1
         '
         Me.Price_Text_2.AutoSize = True
         Me.Price_Text_2.BackColor = System.Drawing.Color.Goldenrod
-        Me.Price_Text_2.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Price_Text_2.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Price_Text_2.Location = New System.Drawing.Point(653, 20)
         Me.Price_Text_2.Name = "Price_Text_2"
-        Me.Price_Text_2.Size = New System.Drawing.Size(196, 56)
+        Me.Price_Text_2.Size = New System.Drawing.Size(207, 55)
         Me.Price_Text_2.TabIndex = 8
         Me.Price_Text_2.Text = "Price 100"
         '
@@ -105,13 +109,13 @@ Partial Class Form1
         Me.Button_Command_2.Name = "Button_Command_2"
         Me.Button_Command_2.Size = New System.Drawing.Size(233, 70)
         Me.Button_Command_2.TabIndex = 9
-        Me.Button_Command_2.Text = "Click to Buy Cookie Stores"
+        Me.Button_Command_2.Text = "Click to buy a Cookie Stores"
         Me.Button_Command_2.UseVisualStyleBackColor = True
         '
         'Level_Text_2
         '
         Me.Level_Text_2.AutoSize = True
-        Me.Level_Text_2.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Level_Text_2.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.Level_Text_2.Location = New System.Drawing.Point(704, 154)
         Me.Level_Text_2.Name = "Level_Text_2"
         Me.Level_Text_2.Size = New System.Drawing.Size(87, 45)
@@ -120,14 +124,14 @@ Partial Class Form1
         '
         'RoundButton1
         '
-        Me.RoundButton1.Font = New System.Drawing.Font("Comic Sans MS", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.RoundButton1.ForeColor = System.Drawing.Color.Red
+        Me.RoundButton1.Font = New System.Drawing.Font("Comic Sans MS", 22.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.RoundButton1.ForeColor = System.Drawing.Color.SaddleBrown
         Me.RoundButton1.Image = CType(resources.GetObject("RoundButton1.Image"), System.Drawing.Image)
         Me.RoundButton1.Location = New System.Drawing.Point(302, 78)
         Me.RoundButton1.Name = "RoundButton1"
         Me.RoundButton1.Size = New System.Drawing.Size(265, 267)
         Me.RoundButton1.TabIndex = 13
-        Me.RoundButton1.Text = "COOKIE!!"
+        Me.RoundButton1.Text = "COOKIES!!"
         Me.RoundButton1.UseVisualStyleBackColor = True
         '
         'Cookie_Multiplier
@@ -162,10 +166,10 @@ Partial Class Form1
         'Achievement
         '
         Me.Achievement.AutoSize = True
-        Me.Achievement.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Achievement.Location = New System.Drawing.Point(12, 540)
+        Me.Achievement.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Achievement.Location = New System.Drawing.Point(15, 577)
         Me.Achievement.Name = "Achievement"
-        Me.Achievement.Size = New System.Drawing.Size(1000, 45)
+        Me.Achievement.Size = New System.Drawing.Size(1142, 50)
         Me.Achievement.TabIndex = 17
         Me.Achievement.Text = "                                                                      "
         '
@@ -182,10 +186,10 @@ Partial Class Form1
         'Price_Text_3
         '
         Me.Price_Text_3.AutoSize = True
-        Me.Price_Text_3.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Price_Text_3.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Price_Text_3.Location = New System.Drawing.Point(662, 218)
         Me.Price_Text_3.Name = "Price_Text_3"
-        Me.Price_Text_3.Size = New System.Drawing.Size(178, 56)
+        Me.Price_Text_3.Size = New System.Drawing.Size(183, 55)
         Me.Price_Text_3.TabIndex = 19
         Me.Price_Text_3.Text = "Price 50"
         '
@@ -195,7 +199,7 @@ Partial Class Form1
         Me.Button_Command_3.Name = "Button_Command_3"
         Me.Button_Command_3.Size = New System.Drawing.Size(246, 69)
         Me.Button_Command_3.TabIndex = 20
-        Me.Button_Command_3.Text = "Click to Buy Workers"
+        Me.Button_Command_3.Text = "Click to buy a Worker"
         Me.Button_Command_3.UseVisualStyleBackColor = True
         '
         'Remind_1
@@ -207,12 +211,53 @@ Partial Class Form1
         Me.Remind_1.Size = New System.Drawing.Size(0, 45)
         Me.Remind_1.TabIndex = 21
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(77, 507)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(0, 25)
+        Me.Label2.TabIndex = 22
+        '
+        'Price_Text_4
+        '
+        Me.Price_Text_4.AutoSize = True
+        Me.Price_Text_4.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Price_Text_4.Location = New System.Drawing.Point(12, 203)
+        Me.Price_Text_4.Name = "Price_Text_4"
+        Me.Price_Text_4.Size = New System.Drawing.Size(272, 55)
+        Me.Price_Text_4.TabIndex = 23
+        Me.Price_Text_4.Text = "Price 10,000"
+        '
+        'Button_Command_4
+        '
+        Me.Button_Command_4.Location = New System.Drawing.Point(45, 261)
+        Me.Button_Command_4.Name = "Button_Command_4"
+        Me.Button_Command_4.Size = New System.Drawing.Size(210, 62)
+        Me.Button_Command_4.TabIndex = 24
+        Me.Button_Command_4.Text = "Click to buy a Grandma Cookie"
+        Me.Button_Command_4.UseVisualStyleBackColor = True
+        '
+        'Grandmas_Cookies
+        '
+        Me.Grandmas_Cookies.AutoSize = True
+        Me.Grandmas_Cookies.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Grandmas_Cookies.Location = New System.Drawing.Point(273, 483)
+        Me.Grandmas_Cookies.Name = "Grandmas_Cookies"
+        Me.Grandmas_Cookies.Size = New System.Drawing.Size(360, 45)
+        Me.Grandmas_Cookies.TabIndex = 25
+        Me.Grandmas_Cookies.Text = "Grandma's Cookies: 0"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Goldenrod
-        Me.ClientSize = New System.Drawing.Size(910, 594)
+        Me.ClientSize = New System.Drawing.Size(1169, 636)
+        Me.Controls.Add(Me.Grandmas_Cookies)
+        Me.Controls.Add(Me.Button_Command_4)
+        Me.Controls.Add(Me.Price_Text_4)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Remind_1)
         Me.Controls.Add(Me.Button_Command_3)
         Me.Controls.Add(Me.Price_Text_3)
@@ -255,4 +300,8 @@ Partial Class Form1
     Friend WithEvents Price_Text_3 As Label
     Friend WithEvents Button_Command_3 As Button
     Friend WithEvents Remind_1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Price_Text_4 As Label
+    Friend WithEvents Button_Command_4 As Button
+    Friend WithEvents Grandmas_Cookies As Label
 End Class

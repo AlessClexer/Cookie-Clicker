@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class CookieClicker
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CookieClicker))
         Me.Cookie_Value = New System.Windows.Forms.Label()
         Me.PassiveCookieTimer = New System.Windows.Forms.Timer(Me.components)
         Me.Price_Text_1 = New System.Windows.Forms.Label()
@@ -45,6 +45,8 @@ Partial Class Form1
         Me.Price_Text_4 = New System.Windows.Forms.Label()
         Me.Button_Command_4 = New System.Windows.Forms.Button()
         Me.Grandmas_Cookies = New System.Windows.Forms.Label()
+        Me.Achievement_Button = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Cookie_Value
@@ -167,7 +169,7 @@ Partial Class Form1
         '
         Me.Achievement.AutoSize = True
         Me.Achievement.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Achievement.Location = New System.Drawing.Point(15, 577)
+        Me.Achievement.Location = New System.Drawing.Point(12, 611)
         Me.Achievement.Name = "Achievement"
         Me.Achievement.Size = New System.Drawing.Size(1142, 50)
         Me.Achievement.TabIndex = 17
@@ -206,10 +208,11 @@ Partial Class Form1
         '
         Me.Remind_1.AutoSize = True
         Me.Remind_1.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Remind_1.Location = New System.Drawing.Point(2, 483)
+        Me.Remind_1.Location = New System.Drawing.Point(28, 557)
         Me.Remind_1.Name = "Remind_1"
-        Me.Remind_1.Size = New System.Drawing.Size(0, 45)
+        Me.Remind_1.Size = New System.Drawing.Size(1126, 45)
         Me.Remind_1.TabIndex = 21
+        Me.Remind_1.Text = "                                                                               "
         '
         'Label2
         '
@@ -248,12 +251,33 @@ Partial Class Form1
         Me.Grandmas_Cookies.TabIndex = 25
         Me.Grandmas_Cookies.Text = "Grandma's Cookies: 0"
         '
-        'Form1
+        'Achievement_Button
+        '
+        Me.Achievement_Button.Font = New System.Drawing.Font("Comic Sans MS", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Achievement_Button.Location = New System.Drawing.Point(653, 378)
+        Me.Achievement_Button.Name = "Achievement_Button"
+        Me.Achievement_Button.Size = New System.Drawing.Size(471, 78)
+        Me.Achievement_Button.TabIndex = 26
+        Me.Achievement_Button.Text = "Click to see your Achievements"
+        Me.Achievement_Button.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(12, 326)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(290, 25)
+        Me.Label3.TabIndex = 27
+        Me.Label3.Text = "Grandma's Cookies are superior"
+        '
+        'CookieClicker
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Goldenrod
-        Me.ClientSize = New System.Drawing.Size(1169, 636)
+        Me.ClientSize = New System.Drawing.Size(1169, 670)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Achievement_Button)
         Me.Controls.Add(Me.Grandmas_Cookies)
         Me.Controls.Add(Me.Button_Command_4)
         Me.Controls.Add(Me.Price_Text_4)
@@ -276,7 +300,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Cookie_Value)
         Me.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Name = "Form1"
+        Me.Name = "CookieClicker"
         Me.Text = "Cookie Clicker"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -304,4 +328,6 @@ Partial Class Form1
     Friend WithEvents Price_Text_4 As Label
     Friend WithEvents Button_Command_4 As Button
     Friend WithEvents Grandmas_Cookies As Label
+    Friend WithEvents Achievement_Button As Button
+    Friend WithEvents Label3 As Label
 End Class

@@ -4,7 +4,7 @@ Imports System.Security.Cryptography
 Imports System.Security.Principal
 Imports System.Threading
 
-Public Class Form1
+Public Class CookieClicker
     Public totalCookies, ClickValue, ClickLevel, CookieStores, CookieWorkers As Integer
     Public PassiveOneVal, PassiveOneLevel As Integer
     Public WorkerValue, GrandmaCookies As Integer
@@ -45,9 +45,15 @@ Public Class Form1
         click_cookie()
     End Sub
 
+    Private Sub Achievement_Button_Click(sender As Object, e As EventArgs) Handles Achievement_Button.Click
+        Dim Achievements As New Achievements()
+        Achievements.Show()
+        Me.Visible = False
+    End Sub
+
     Private Sub Button_Command_4_Click(sender As Object, e As EventArgs) Handles Button_Command_4.Click
-        If totalCookies >= 10000 Then
-            totalCookies -= 10000
+        If totalCookies >= 10 Then
+            totalCookies -= 10
 
             GrandmaCookies += 1
 

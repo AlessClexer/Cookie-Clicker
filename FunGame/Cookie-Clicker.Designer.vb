@@ -98,7 +98,7 @@ Partial Class CookieClicker
         Me.Price_Text_2.AutoSize = True
         Me.Price_Text_2.BackColor = System.Drawing.Color.Goldenrod
         Me.Price_Text_2.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Price_Text_2.Location = New System.Drawing.Point(653, 20)
+        Me.Price_Text_2.Location = New System.Drawing.Point(683, 19)
         Me.Price_Text_2.Name = "Price_Text_2"
         Me.Price_Text_2.Size = New System.Drawing.Size(207, 55)
         Me.Price_Text_2.TabIndex = 8
@@ -106,10 +106,10 @@ Partial Class CookieClicker
         '
         'Button_Command_2
         '
-        Me.Button_Command_2.Location = New System.Drawing.Point(635, 80)
+        Me.Button_Command_2.Location = New System.Drawing.Point(662, 80)
         Me.Button_Command_2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button_Command_2.Name = "Button_Command_2"
-        Me.Button_Command_2.Size = New System.Drawing.Size(233, 70)
+        Me.Button_Command_2.Size = New System.Drawing.Size(246, 70)
         Me.Button_Command_2.TabIndex = 9
         Me.Button_Command_2.Text = "Click to buy a Cookie Stores"
         Me.Button_Command_2.UseVisualStyleBackColor = True
@@ -118,7 +118,7 @@ Partial Class CookieClicker
         '
         Me.Level_Text_2.AutoSize = True
         Me.Level_Text_2.Font = New System.Drawing.Font("Comic Sans MS", 16.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Level_Text_2.Location = New System.Drawing.Point(704, 154)
+        Me.Level_Text_2.Location = New System.Drawing.Point(744, 154)
         Me.Level_Text_2.Name = "Level_Text_2"
         Me.Level_Text_2.Size = New System.Drawing.Size(87, 45)
         Me.Level_Text_2.TabIndex = 10
@@ -189,7 +189,7 @@ Partial Class CookieClicker
         '
         Me.Price_Text_3.AutoSize = True
         Me.Price_Text_3.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Price_Text_3.Location = New System.Drawing.Point(662, 218)
+        Me.Price_Text_3.Location = New System.Drawing.Point(696, 218)
         Me.Price_Text_3.Name = "Price_Text_3"
         Me.Price_Text_3.Size = New System.Drawing.Size(183, 55)
         Me.Price_Text_3.TabIndex = 19
@@ -197,7 +197,7 @@ Partial Class CookieClicker
         '
         'Button_Command_3
         '
-        Me.Button_Command_3.Location = New System.Drawing.Point(635, 276)
+        Me.Button_Command_3.Location = New System.Drawing.Point(662, 276)
         Me.Button_Command_3.Name = "Button_Command_3"
         Me.Button_Command_3.Size = New System.Drawing.Size(246, 69)
         Me.Button_Command_3.TabIndex = 20
@@ -254,7 +254,7 @@ Partial Class CookieClicker
         'Achievement_Button
         '
         Me.Achievement_Button.Font = New System.Drawing.Font("Comic Sans MS", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Achievement_Button.Location = New System.Drawing.Point(653, 378)
+        Me.Achievement_Button.Location = New System.Drawing.Point(683, 423)
         Me.Achievement_Button.Name = "Achievement_Button"
         Me.Achievement_Button.Size = New System.Drawing.Size(471, 78)
         Me.Achievement_Button.TabIndex = 26

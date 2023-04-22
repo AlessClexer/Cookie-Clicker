@@ -39,7 +39,7 @@ Partial Class Achievements
         Me.Back_To_Cookie.Name = "Back_To_Cookie"
         Me.Back_To_Cookie.Size = New System.Drawing.Size(599, 54)
         Me.Back_To_Cookie.TabIndex = 0
-        Me.Back_To_Cookie.Text = "Click to get back to Cookie Clicker game."
+        Me.Back_To_Cookie.Text = "Click to get back to Cookie Clicker game"
         Me.Back_To_Cookie.UseVisualStyleBackColor = True
         '
         'Falling_Grandma
@@ -67,7 +67,7 @@ Partial Class Achievements
         '
         Me.Grandma_Cookie_1.AutoSize = True
         Me.Grandma_Cookie_1.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Grandma_Cookie_1.ForeColor = System.Drawing.Color.Orchid
+        Me.Grandma_Cookie_1.ForeColor = System.Drawing.Color.MediumVioletRed
         Me.Grandma_Cookie_1.Location = New System.Drawing.Point(12, 246)
         Me.Grandma_Cookie_1.Name = "Grandma_Cookie_1"
         Me.Grandma_Cookie_1.Size = New System.Drawing.Size(311, 35)
@@ -79,7 +79,7 @@ Partial Class Achievements
         '
         Me.CookieStores_5.AutoSize = True
         Me.CookieStores_5.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.CookieStores_5.ForeColor = System.Drawing.Color.Chocolate
+        Me.CookieStores_5.ForeColor = System.Drawing.Color.SaddleBrown
         Me.CookieStores_5.Location = New System.Drawing.Point(443, 246)
         Me.CookieStores_5.Name = "CookieStores_5"
         Me.CookieStores_5.Size = New System.Drawing.Size(289, 35)
@@ -91,6 +91,7 @@ Partial Class Achievements
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Goldenrod
         Me.ClientSize = New System.Drawing.Size(814, 450)
         Me.Controls.Add(Me.CookieStores_5)
         Me.Controls.Add(Me.Grandma_Cookie_1)

@@ -53,7 +53,7 @@ Public Class CookieClicker
         End If
 
         If GrandmaCookies = 1 Then
-            Achievement.Text = "Congraluations! You have 1 Grandma Cookie."
+            Achievement.Text = "Congraluations! You have gotten 1 Grandma Cookie."
         End If
 
     End Sub
@@ -103,11 +103,11 @@ Public Class CookieClicker
             Price_Text_2.Text = "Price: " + upgradeCost.ToString
             Cookie_Stores.Text = "Cookie Stores: " + PassiveOneVal.ToString
         Else
-            Remind_1.Text = "You do not have enough money or workers to buy stores."
+            Remind_1.Text = "You do not have enough cookies or workers to buy stores."
         End If
 
         If CookieStores = 5 Then
-            Achievement.Text = "Congratulations! You have reached " + CookieStores.ToString + " Cookie Stores!"
+            Achievement.Text = "Congratulations! You have " + CookieStores.ToString + " Cookie Stores!"
         End If
 
     End Sub
